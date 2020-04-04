@@ -1,6 +1,6 @@
-package in.ac.adit.oopc;
+package in.ac.adit.oopc.threading.example1;
 
-public class ThreadDemo {
+public class Main {
 	public static void main(String[] args) {
 		Demo demo = new  Demo();
 		
@@ -10,9 +10,6 @@ public class ThreadDemo {
 		 */
 		
 		System.out.println("Thread Demo Class Thread Name : "+Thread.currentThread().getName());
-		
-		
-		Thread thread = new Thread(demo);
-		thread.start();
+		demo.start();
 	}
 }

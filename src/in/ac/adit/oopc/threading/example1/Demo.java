@@ -1,4 +1,4 @@
-package in.ac.adit.oopc;
+package in.ac.adit.oopc.threading.example1;
 
 public class Demo extends Thread {
 	public void run() {
